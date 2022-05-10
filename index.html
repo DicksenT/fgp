@@ -4,9 +4,145 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Dicksen</title>
 </head>
 <body>
     <h1>My Name Is Dicksen!!!</h1>
+    <!--This is Heading-->
+    <h1>Heading one</h1>
+    <h2>heading two</h2>
+    <h3>Okay only until three</h3>
+
+    <!--Pragraph here-->
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. A, illo.</p>
+    <!--Use Lorem to summon the lorem ipsum paragraph, add number after lorem like lorem10 to adjust the word-->
+    <p>Lorem ipsum dolor sit amet <strong>consectetur adipisicing elit.</strong> Eum <em>quos saepe</em> eligendi delectus ducimus rerum quidem? Optio eligendi vel, rerum quam esse repudiandae eum assumenda, est odit, consequatur excepturi amet?</p>
+    <!--Inline Element=do not create a new line for example <strong> <img> <a> <em>
+        Block Element=create new line, like <div> <h1> <p> etc-->
+
+     <p>Lorem ipsum dolor sit, <a href="https://www.youtube.com/" target="_blank">amet consectetur adipisicing elit.</a> Beatae doloremque illum rerum veniam soluta at dolor fugit, facere maxime. Distinctio aliquid saepe velit ab sint autem facilis, repellat officiis voluptates.</p>
+     
+     <!--Tagname attributename="attributevalue">content</tagname>
+        This is the format-->
+     <!--<a> is used to put link
+         (1)href is the attribute to location, ex=<a href="https://www.youtube.com/"> 
+         this gonna put link to youtube on word, remember to copy a full link
+        (2)Target="_blank" is a attribute to open the link on new tab, 
+        ex=<a href="https://www.youtube.com/" target="_blank">  -->
+
+
+    <!-- List -->
+    <!--Unordered List(Bullet) tag is <ul>-->
+        <ul>
+            <li>An</li>
+            <li>Unordered</li>
+            <li>Lists</li>
+        </ul>
+
+    <!--Ordered List (number) tag is <ol>-->
+        <ol>
+            <li>An</li>
+            <li>Unordered</li>
+            <li>Lists</li>
+        </ol>
+
+        <!-- Table, like table that used in excel/word
+        <th> is table heading
+            <td> is table data
+        <tr> is table row -->
+    <table>
+        <thead>
+            <tr>
+                <th>name</th>
+                <th>email</th>
+                <th>age</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Dic</td>
+                <td>dic@email.com</td>
+                <td>19</td>
+            </tr>
+            <tr>
+                <td>sle</td>
+                <td>sle@email.com</td>
+                <td>19</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br>
+    <hr>
+    <!--<br> to break line
+    <hr>is to create a horizontal line -->
+
+    <!-- Forms 
+    <label> is for labeling the forms
+        <input> what can be inputed to form -->\
+    <form action="" method="">
+        <div>
+        <label>First Name</label>
+        <input type="text" name="firstName" placeholder="Enter Name"> <!--placeholder is used to foreshadowing(?)-->
+            </div>
+            <br>
+            <div>
+        <label>last Name</label>
+        <input type="text" name="lastName">
+        </div>
+        <br>
+            <div>
+        <label>email</label>
+        <input type="email" name="email">
+        </div>
+        <br>
+            <div>
+        <label>Message</label>
+        <textarea name="message"></textarea><!--Textarea is used to input messahe because it bigger-->
+        </div>
+        <br>
+            <div>
+                <!--For Multiple Choice-->
+        <label>gender</label>
+        <select name="gender">
+            <option value="male">male</option>
+            <option value="female">female</option>
+
+        </select>
+        </div>
+        <br>
+            <div>
+        <label>age</label>
+        <input type="number" name="age" value="20">
+        </div>
+        <br>
+            <div>
+        <label>birth</label>
+        <input type="date" name="birth">
+        </div>
+        <br>
+        <input type="submit" name="submit" value="submit"> <!--Creatw submit button to submit the form-->
+    </form>
+    <!-- Button -->
+    <button> Click me </button><!--No function because not setup yet-->
+    <br>
+    <!-- Images -->
+    <a href="images/raiden.jpg" target="_blank">
+        <img src="images/raiden.jpg" alt="crying raiden" width="300">
+         <!--Put the image in the same folder with the html file just raiden.jpg if samefolder
+    use images/raiden.jpg if it in subfolder, alt="" if the image wont load it will show the text-->
+    </a>
+
+    <!-- Quotations -->
+    <blockquote cite="https://www.youtube.com/"><!--used for quote, cite is the source-->
+        Sleep is good
+    </blockquote>
+    <p>
+        <abbr title="Her Excellency, the Almighty Narukami Ogosho, God of Thunder">Raiden</abbr> is crying
+        <!--<abbr title="" put the full desc in word> is used to-->
+    </p>
+    <p>
+        Its okay to <cite>learn</cite>
+    </p>
 </body>
 </html>
