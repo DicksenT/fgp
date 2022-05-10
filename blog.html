@@ -4,9 +4,50 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>html5semantics</title>
+    <meta name="description" content="blog by me">
+    <meta name="Keyword" content="dicblog, superblog">
+    <!-- <meta is used to put description in inspect element -->
 </head>
 <body>
-    
+    <!--Header in the web-->
+    <header id="main-header"><!-- id used incase there is another header -->
+        <h1>this is header</h1>
+    </header>
+    <a href="index.html">this is my index</a>
+    <!--Section in the web, apart from the header-->
+    <section>
+        <article class="post"><!--Class="post" is to identify it as post-->
+            <h3>Article post one</h3>
+            <small>Posted by dic</small><!--<small> is to create subcontent-->
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus aliquid, cum eveniet quo a expedita, delectus distinctio commodi repellendus quos labore cumque repudiandae, quas autem vel perspiciatis dolores numquam molestias.
+                </p>
+                <a href="post1.html">read more</a> <!--Link to another html, ex for the full article-->
+                <article class="post">
+                    <h3>Article post two</h3>
+                    <small>Posted by dic</small><!--<small> is to create subcontent-->
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus aliquid, cum eveniet quo a expedita, delectus distinctio commodi repellendus quos labore cumque repudiandae, quas autem vel perspiciatis dolores numquam molestias.
+                        </p>
+                        <article class="post">
+                            <h3>Article post three</h3>
+                            <small>Posted by dic</small><!--<small> is to create subcontent-->
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus aliquid, cum eveniet quo a expedita, delectus distinctio commodi repellendus quos labore cumque repudiandae, quas autem vel perspiciatis dolores numquam molestias.
+                                </p>
+        </article>
+    </section>
+
+    <aside><!--Sidebar in the website-->
+        <h3>Categories</h3>
+        <nav><!--Navigation-->
+        <ul>
+            <li><a href="#">Home</a></li><!--# used to stay inpage-->
+            <li><a href="#">Contact</a></li>
+        </ul>
+        </nav>
+    </aside>
+
+    <footer id="main-footer"><!--Id="" used incase there is another footer-->
+       <p>Copyright &copy;</p>
+    </footer>
 </body>
 </html>
